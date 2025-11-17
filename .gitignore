@@ -1,0 +1,90 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Byte-compiled / optimized / DLL files
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# C extensions
+*.so
+
+# ----------------------------
+# Virtual Environment
+# ----------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs / Cache
+# ----------------------------
+*.log
+logs/
+pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# ----------------------------
+# FastAPI / Uvicorn
+# ----------------------------
+# Generated files during dev
+*.sqlite3
+*.db
+instance/
+
+# ----------------------------
+# Environment / Config files
+# ----------------------------
+.env
+.env.local
+.env.*.local
+
+# ----------------------------
+# MySQL Dumps
+# ----------------------------
+*.sql
+*.sql.gz
+*.dump
+
+# ----------------------------
+# General Backup files
+# ----------------------------
+*.bak
+*.tmp
+
+# ----------------------------
+# PyCharm
+# ----------------------------
+*.iml
+.idea/
+
+# ----------------------------
+# Local settings
+# ----------------------------
+app/core/config_local.py
